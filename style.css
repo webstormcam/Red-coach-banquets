@@ -180,6 +180,16 @@ footer{
     text-align: center;
 }
 
+.event-form{
+    background-color: black;
+    color: #fff;
+    width: 300px;
+    align-self: center;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
 @media screen and (min-width:768px) {
     .two-parts{
         flex-direction: row;
