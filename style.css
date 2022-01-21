@@ -7,12 +7,25 @@ body{
     flex-direction: column;
     font-family: 'Inter', sans-serif;
 font-family: 'Open Sans', sans-serif;
+/* background-color: #7B4747; */
 }
 
 h1{
     text-align: center;
     font-size: 4rem;
     font-weight: bold;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
 }
 
 main{
@@ -39,17 +52,19 @@ h2{
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    /* color: #fff; */
 }
 
 .information{
     width: 100%;
-    padding: 1rem;
+    padding: 2rem;
     max-width: 1060px;
 }
 
 .block-words{
     line-height: 2rem;
     margin-bottom: 2rem;
+    /* color: #fff; */
 }
 
 .two-parts{
@@ -81,6 +96,7 @@ h3{
     margin-top: 2rem;
     font-weight: bold;
     margin-bottom: 1rem;
+    /* color: #fff; */
 }
 
 ul{
@@ -91,6 +107,7 @@ ul{
 li{
     margin-top: 1rem;
     margin-left: 1rem;
+    /* color: #fff; */
 }
 
 .dinner-pic{
@@ -124,6 +141,10 @@ margin-top: 2rem;
     width: 350px;
     margin-bottom: 2rem;
     text-decoration: none;
+}
+
+.menus a:hover{
+    background-color: rgba(0, 0, 0, 0.301);
 }
 
 .weddings{
