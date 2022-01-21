@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+   
+}
+
+#main-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image{
+    width: 100%;
+    max-width: 800px;
+    padding: 1rem;
+   
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.information{
+    width: 100%;
+    padding: 1rem;
+    max-width: 1060px;
+}
+
+.intro-info{
+    line-height: 2rem;
+}
