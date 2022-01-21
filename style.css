@@ -55,6 +55,7 @@ h2{
 .two-parts{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .download-floor{
@@ -66,9 +67,14 @@ h2{
     text-decoration: none;
 }
 
+a:hover{
+background-color: rgba(0, 0, 0, 0.301);
+}
+
 .button-list{
     display: flex;
     flex-direction: column;
+    margin-bottom: 2rem;
 }
 
 h3{
@@ -89,5 +95,13 @@ li{
 
 .dinner-pic{
     width: 100%;
-    max-width:400px ;
+    max-width:600px ;
+   padding: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .two-parts{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
