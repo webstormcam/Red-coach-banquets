@@ -49,4 +49,45 @@ h2{
 
 .intro-info{
     line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.two-parts{
+    display: flex;
+    flex-direction: column;
+}
+
+.download-floor{
+    color: #fff;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 230px;
+    text-decoration: none;
+}
+
+.button-list{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    margin-top: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style: disc;
+    
+}
+
+li{
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.dinner-pic{
+    width: 100%;
+    max-width:400px ;
 }
