@@ -47,7 +47,7 @@ h2{
     max-width: 1060px;
 }
 
-.intro-info{
+.block-words{
     line-height: 2rem;
     margin-bottom: 2rem;
 }
@@ -98,10 +98,62 @@ li{
     max-width:600px ;
    padding: 1rem;
 }
+.menus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+text-align: center;
+margin-top: 2rem;
+}
+
+.menu3{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu2{
+    display: flex;
+    flex-direction: column;
+}
+
+.menus a{
+    color: #fff;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 350px;
+    margin-bottom: 2rem;
+    text-decoration: none;
+}
+
+.weddings{
+    margin-top: 4rem;
+}
 
 @media screen and (min-width:768px) {
     .two-parts{
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .menus a{
+        width: 33%;
+        margin: 1rem;
+    }
+
+    
+
+
+    .menu3{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .menu2{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+
 }
